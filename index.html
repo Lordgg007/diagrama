@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let xperson = prompt("Who's there?")
+		if (xperson === 'admin') { let pass = prompt("Password")
+		//password detector
+		if(pass === '1234') 
+			{ 
+				alert('Welcome')
+			}
+			else if (pass === 'cancel')
+			{
+				alert('canceled')
+			}
+			else
+			{
+				alert('Wrong password')
+			}
+		};
+
+
+		if (xperson === 'other') 
+		{ let pass = prompt("I don't know you")} 
+		else
+		{ let pass = prompt("Canceled")};
+
+		
+	</script>
+</body>
+</html>
